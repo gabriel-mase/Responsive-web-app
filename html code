@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Bangers|Bevan|Monoton&display=swap" rel="stylesheet">
+
+    
+    <link rel="apple-touch-icon" href="icon.png">
+
+    <meta charset="utf-8" />
+    <meta name="description" content="The NYSL Homepage" />
+    <title>NYSL Home - Northside Youth Soccer League</title>
+
+
+    <meta name=viewport content="width=device-width, initial-scale=1.0, minimum-scale=0.5 maximum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="shortcut icon" sizes="128x128" href="icon.png">
+    <link rel="shortcut icon" sizes="196x196" href="icon.png">
+    <link rel="apple-touch-icon" href="icon.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="icon.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="icon.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="icon.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.blue_grey-orange.min.css">
+    <script src="https://code.getmdl.io/1.1.3/material.min.js"></script>
+
+
+</head>
+
+<body background="71246.jpg">
+
+
+    <div class="container" id="myGroup">
+        <div class="row justify-content-center">
+            <div class="col-12 col-sm-11 col-md-12 col-lg-10">
+                <h1 id="cabecera">NYSL Schedule</h1>
+                <p>*All games take place on Saturday</p>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <a class="col-12 col-sm-3 btn btn-primary ml-1 mr-1 mt-2" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">Full Calendar</a>
+
+            
+            <button id="signInButton" class="col-12 col-sm-3 btn btn-primary ml-1 mr-1 mt-2" data-toggle="collapse" data-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample2">Sign In</button>
+
+
+            <button class="col-12 col-sm-3 btn btn-primary ml-1 mr-1 mt-2" data-toggle="collapse" data-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample2">Locations Map</button>
+        </div>
+        <div class="collapse" id="collapseExample" data-parent="#myGroup">
+            <div class="card card-body">
+                <div class="table-responsive">
+                    <table class="table table-bordered">
+                        <thead class="thead-dark">
+                            <th>SEPT</th>
+                            <th>Teams</th>
+                            <th>Location</th>
+                            <th>Times</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td rowspan="2"><a href="#" id="G1" onclick="selectGame(event)">9/01</a></td>
+                                <td>U1 and U4</td>
+                                <td>AJ Katzenmaier</td>
+                                <td>9:30 a.m.</td>
+                            </tr>
+                            <tr>
+                                <td>U3 and U2</td>
+                                <td>Greenbay</td>
+                                <td>1:00 p.m.</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="2" ><a href="#" id="G2" onclick="selectGame(event)">9/08</a></td>
+                                <td>U5 and U6</td>
+                                <td>Howard A Yeager</td>
+                                <td>9:30 a.m.</td>
+                            </tr>
+                            <tr>
+                                <td>U6 and U1</td>
+                                <td>Marjorie P Hart</td>
+                                <td>1:00 p.m.</td>
+                            <tr>
+                                <td rowspan="2"><a href="#" id="G3" onclick="selectGame(event)">9/15</a></td>
+                                <td>U2 and U4</td>
+                                <td>North</td>
+                                <td>9:30 a.m.</td>
+                            </tr>
+                            <tr>
+                                <td>U3 and U5</td>
+                                <td>AJ Katzenmaier</td>
+                                <td>1:00 p.m.</td>
+                            <tr>
+                                <td rowspan="2"><a href="#"href="#" id="G4" onclick="selectGame(event)" >9/22</a></td>
+                                <td>U1 and U3</td>
+                                <td>South</td>
+                                <td>9:30 a.m.</td>
+                            </tr>
+                            <tr>
+                                <td>U2 and U6</td>
+                                <td>Howard A Yeager</td>
+                                <td>1:00 p.m.</td>
+                            <tr>
+                                <td><a href="#" href="#" id="G5" onclick="selectGame(event)">9/29</a></td>
+                                <td>U4 and U5</td>
+                                <td>Greenbay</td>
+                                <td>9:30 a.m.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="table table-bordered">
+                        <thead class="thead-dark">
+                            <th>OCT</th>
+                            <th>Teams</th>
+                            <th>Location</th>
+                            <th>Times</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td rowspan="2"><a href="#" href="#" id="G6" onclick="selectGame(event)">10/06</a></td>
+                                <td>U2 and U5</td>
+                                <td>Marjorie P Hart</td>
+                                <td>9:30 a.m.</td>
+                            </tr>
+                            <tr>
+                                <td>U1 and U6</td>
+                                <td>South</td>
+                                <td>1:00 p.m.</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="2"><a href="#" href="#" id="G7" onclick="selectGame(event)">10/08</a></td>
+                                <td>U3 and U4</td>
+                                <td>Howard A Yeager</td>
+                                <td>9:30 a.m.</td>
+                            </tr>
+                            <tr>
+                                <td>U5 and U1</td>
+                                <td>Greenbay</td>
+                                <td>1:00 p.m.</td>
+                            <tr>
+                                <td rowspan="2"><a href="#" href="#" id="G8" onclick="selectGame(event)">10/20</a></td>
+                                <td>U6 and U3</td>
+                                <td>North</td>
+                                <td>9:30 a.m.</td>
+                            </tr>
+                            <tr>
+                                <td>U2 and U4</td>
+                                <td>Marjorie P Hart</td>
+                                <td>1:00 p.m.</td>
+                            <tr>
+                                <td rowspan="2"><a href="#" href="#" id="G9" onclick="selectGame(event)">10/27</a></td>
+                                <td>U3 and U1</td>
+                                <td>AJ Katzenmaier</td>
+                                <td>9:30 a.m.</td>
+                            </tr>
+                            <tr>
+                                <td>U5 and U6</td>
+                                <td>Howard A Yeager</td>
+                                <td>1:00 p.m.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div class="collapse" id="collapseExample2" data-parent="#myGroup">
+            <div class="card card-body">
+                <div class="demo-layout mdl-layout mdl-js-layout mdl-layout--fixed-header">
+
+
+                    <!-- Splash screen -->
+                    <section id="page-splash">
+
+                        <div>
+                            <button id="sign-in-button" class="mdl-button--raised mdl-button mdl-js-button mdl-js-ripple-effect"><i class="material-icons">account_circle</i> Sign in with Google</button>
+                        </div>
+                    </section>
+
+                    <!-- Header section containing logo and menu -->
+                    <header class="header mdl-layout__header mdl-color-text--white mdl-color--light-blue-600">
+
+                        <div class="mdl-layout__header-row titlebar">
+                            <button id="sign-out-button" class="mdl-button--raised mdl-button mdl-js-button mdl-js-ripple-effect"><i class="material-icons">account_circle</i> Sign out</button>
+                        </div>
+
+                        <!-- Navigation Bar -->
+                        <div class="tab mdl-layout__header-row mdl-color--light-blue-600">
+                            <div class="mdl-tab">
+                                <div id="menu-recent" class="mdl-layout__tab is-active mdl-button mdl-js-button mdl-js-ripple-effect">
+                                    <i class="material-icons">new_releases</i> 
+                                </div>
+                                <div id="menu-my-posts" class="mdl-layout__tab mdl-button mdl-js-button mdl-js-ripple-effect">
+                                    <i class="material-icons">home</i> 
+                                </div>
+                                <div id="menu-my-top-posts" class="mdl-layout__tab mdl-button mdl-js-button mdl-js-ripple-effect">
+                                    <i class="material-icons">trending_up</i> 
+                                </div>
+                                <button class="mdl-button mdl-js-button mdl-button--fab mdl-color--amber-400 mdl-shadow--4dp mdl-js-ripple-effect" id="add">
+                                    <i class="material-icons">mode_edit</i>
+                                </button>
+                            </div>
+                        </div>
+                    </header>
+
+                    <main class="mdl-layout__content mdl-color--grey-100">
+
+                        <!-- Show the add post form -->
+                        <section class="mdl-grid content" id="add-post" style="display:none">
+                            <div class="mdl-cell mdl-cell--12-col mdl-grid">
+
+                                <!-- Card containing the inputs to add a new messages -->
+                                <div class="mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col mdl-cell--8-col-tablet
+                  mdl-cell--6-col-desktop">
+                                    <div class="mdl-card__title mdl-color--light-blue-600 mdl-color-text--white">
+                                        <h2 class="mdl-card__title-text">New Post</h2>
+                                    </div>
+                                    <div class="mdl-card__supporting-text mdl-color-text--grey-600">
+                                        <form id="message-form" action="#">
+                                            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                                <input class="mdl-textfield__input" type="text" id="new-post-title">
+                                                <label class="mdl-textfield__label" for="new-post-title">Match Date</label>
+                                            </div>
+                                            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                                <textarea class="mdl-textfield__input" rows="3" id="new-post-message"></textarea>
+                                                <label class="mdl-textfield__label" for="new-post-message">Post message...</label>
+                                            </div>
+                                            <button type="submit" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+                                                Add post
+                                            </button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- Show a list of recent posts -->
+                        <section class="mdl-grid content" id="recent-posts-list" style="display:none">
+                            <div class="posts-container mdl-cell mdl-cell--12-col mdl-grid">
+                            </div>
+                        </section>
+
+                        <!-- Show the list of user's posts -->
+                        <section class="mdl-grid content" id="user-posts-list" style="display:none">
+                            <div class="posts-container mdl-cell mdl-cell--12-col mdl-grid">
+                            </div>
+                        </section>
+
+                        <!-- Show the list of top user's posts -->
+                        <section class="mdl-grid content" id="top-user-posts-list" style="display:none">
+                            <div class="posts-container mdl-cell mdl-cell--12-col mdl-grid">
+                            </div>
+                        </section>
+                    </main>
+                </div>
+            </div>
+        </div>
+        <div class="collapse" id="collapseExample3" data-parent="#myGroup">
+            <div class="card card-body">
+                <h3>Game Locations</h3>
+
+                <h4 class="school_name_title">AJ Katzenmaier Elementary</h4>
+                <iframe class="Google_Maps_widget" src="https://www.google.com/maps/embed?pb=!1m17!1m8!1m3!1d5939.308527493337!2d-87.62905!3d41.900292!3m2!1i1024!2i768!4f13.1!4m6!3e6!4m0!4m3!3m2!1d41.9002924!2d-87.6290504!5e0!3m2!1ses!2ses!4v1562869913454!5m2!1ses!2ses" width="265" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+                <h4 class="school_name_title">Greenbay Elementary</h4>
+                <iframe class="Google_Maps_widget" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5938.0517947147855!2d-87.637839!3d41.913802!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd34073f306a3%3A0x9e1726bbf8f23f0e!2s1734+N+Orleans+St%2C+Chicago%2C+IL+60614%2C+EE.+UU.!5e0!3m2!1ses!2ses!4v1562933839345!5m2!1ses!2ses" width="265" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+                <h4 class="school_name_title">Howard A Yeager Elementary</h4>
+                <iframe class="Google_Maps_widget" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5937.1713270167975!2d-87.662926!3d41.923265!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd2e37f9b8d2d%3A0x62ad8b907dd755d6!2s2245+N+Southport+Ave%2C+Chicago%2C+IL+60614%2C+EE.+UU.!5e0!3m2!1ses!2ses!4v1562933988535!5m2!1ses!2ses" width="265" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+                <h4 class="school_name_title">Marjorie P Hart Elementary</h4>
+                <iframe class="Google_Maps_widget" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5936.5838553017875!2d-87.645898!3d41.929578!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd30f2630e551%3A0x3e719e44a5cef714!2s2625+N+Orchard+St%2C+Chicago%2C+IL+60614%2C+EE.+UU.!5e0!3m2!1ses!2ses!4v1562934060379!5m2!1ses!2ses" width="265" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+                <h4 class="school_name_title">North Elementary</h4>
+                <iframe class="Google_Maps_widget" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5938.675551254156!2d-87.646188!3d41.907097!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd33af0e6ccc3%3A0x26c81c1d557667da!2s1409+N+Ogden+Ave%2C+Chicago%2C+IL+60610%2C+EE.+UU.!5e0!3m2!1ses!2ses!4v1562934117734!5m2!1ses!2ses" width="265" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+                <h4 class="school_name_title">South Elementary</h4>
+                <iframe class="Google_Maps_widget" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5937.495880507461!2d-87.651367!3d41.919777!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd3196fb41dc7%3A0x970be7f7d6336df5!2s2101+N+Fremont+St%2C+Chicago%2C+IL+60614%2C+EE.+UU.!5e0!3m2!1ses!2ses!4v1562934159538!5m2!1ses!2ses" width="265" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="Last_p_of_gameInfo">
+        <p>Facility Type: Outdoor</p>
+        <p>Additional Information: If deemed necessary by NYSL, games may be shortened or
+            cancelled due to extreme weather conditions. </p>
+        <p>Please direct all questions to: Michael Randall, League Coordinator.</p>
+        <p>Phone:(630) 690-8132</p>
+    
+    <a id="mail_michael_randall" href="mailto:: michael.randall@chisoccer.org">Email: michael.randall@chisoccer.org</a></div>
+
+    <script src="js/main.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/6.4.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.4.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.4.0/firebase-database.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#config-web-app -->
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyC0RH0mNdbvbGG-VLZohBSkmy2OHCi2KqY",
+            authDomain: "footballapp-gmase.firebaseapp.com",
+            databaseURL: "https://footballapp-gmase.firebaseio.com",
+            projectId: "footballapp-gmase",
+            storageBucket: "footballapp-gmase.appspot.com",
+            messagingSenderId: "10255427585",
+            appId: "1:10255427585:web:cc61e96400faa1da"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+
+    </script>
+    <script src="js/agregados.js"></script>
+
+</body>
+
+</html>
